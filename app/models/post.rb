@@ -5,7 +5,7 @@ class Post < ActiveRecord::Base
 
   before_save :make_title_case
 
-  before_validation :make_title_case
+  #before_validation :make_title_case
 
   private
 
